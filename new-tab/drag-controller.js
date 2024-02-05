@@ -58,6 +58,7 @@ class DragController {
     chrome.windows.update(this.currentWindow.id, updateInfo, () => {
       if (chrome.runtime.lastError) {
         // TODO: change some visual thing
+        console.log("this is triggered")
       }
     });
   }

@@ -1,12 +1,19 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("fonts/Comfortaa.ttf");
+}
+
 * {
-  font-family: "Noto sans", sans-serif;
+  font-family: 'Comfortaa';
   box-sizing: border-box;
 }
 
 body {
   padding: 8px;
-  background: #212121;
-  color: #ffffff;
+  /* background: #212121;
+  color: #ffffff; */
+  background: #FFFFFF;
+  color: #212121;
 }
 
 .top-left {
@@ -70,8 +77,8 @@ body {
 }
 
 svg {
-  color: white;
-  filter: brightness(0) invert(1);
+  color: #212121;
+  /* filter: brightness(0) invert(1); */
   margin: 1px;
   width: 30px;
   height: 30px;
@@ -90,7 +97,7 @@ svg:hover {
 /* alternate mode */
 
 body.black-text {
-  color: black;
+  color: #212121;
 }
 
 body.black-text svg {
