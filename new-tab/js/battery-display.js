@@ -28,7 +28,7 @@ class BatteryDisplay {
     }
 
     getPercentMessage(battery) {
-        return `Battery: ${Math.round(battery.level * 100)}%`
+        return `Charged ${Math.round(battery.level * 100)}%`
     }
 
     getChargingMessage(battery) {
@@ -42,7 +42,7 @@ class BatteryDisplay {
         let minsLeft = Math.floor(battery.secsLeft % 3600 / 60);
         minsLeft = String(minsLeft).padStart(2, 0) // 8:9 to 8:09 etc
 
-        return `Around ${hoursLeft}:${minsLeft} until ${direction}`
+        return `${hoursLeft}:${minsLeft} to ${direction}`
     }
 
     async listenForUpdates() {

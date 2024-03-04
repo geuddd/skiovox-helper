@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Comfortaa";
-  src: url("fonts/Comfortaa.ttf");
+  font-family: "SugarPunch";
+  src: url("/new-tab/fonts/Sugarpunch.otf");
 }
 
 * {
-  font-family: 'Comfortaa';
+  font-family: 'SugarPunch';
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
   /* background: #212121;
   color: #ffffff; */
   background: #FFFFFF;
-  color: #212121;
+  color: #161212;
 }
 
 .top-left {
@@ -58,22 +58,22 @@ body {
   width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
   text-align: center;
   transform: translate(-50%, -50%);
 }
 
 .date {
-  font: 22.5px monospace;
-  line-height: 50%;
+  font-size: 25px;
+  padding-bottom: 15px;
 }
 
 .time {
-  font-size: 55px;
+  font-size: 100px;
 }
 
 .battery {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 svg {
@@ -87,6 +87,20 @@ svg {
 }
 
 svg:hover {
+  transform: scale(1.2);
+}
+
+.svg {
+  color: #212121;
+  /* filter: brightness(0) invert(1); */
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 250ms;
+}
+
+.svg:hover {
   transform: scale(1.2);
 }
 
