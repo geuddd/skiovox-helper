@@ -2,4 +2,4 @@
 
 > ### Forked from [here](https://github.com/bypassiwastaken/skiovox-helper) ( go star it )
 
-![image](https://github.com/cloudirector/skiovox-helper/assets/143876484/586c338a-db6d-4d1e-9db7-c701869648aa)
+![image](https://github.com/cloudirector/skiovox-helper/assets/143876484/d02b4833-7b09-4aae-ad88-d17b7ee083a8)
